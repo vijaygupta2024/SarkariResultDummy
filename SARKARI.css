@@ -1,0 +1,323 @@
+/* HEADER */
+header{
+    width: 60%;
+    margin: auto;
+}
+/* table {
+    color: white;
+    background-color: black;
+    width: 62.6%;
+    margin: auto;
+    font-size: x-large;
+    border-color: bisque;
+    text-align: center;
+} */
+header ul{
+    margin-top: 0px;
+    padding: 0px  0px;
+    width:100%;
+    margin: auto;
+    background-color:rgb(72, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 0px;
+}
+
+header li a{
+    color: white;
+    font-size: 24px;
+text-decoration: none;
+    display:block;
+    padding: 0px 9.9px;
+    border:1px solid aliceblue;
+}
+
+header ul li a:hover{
+    background-color: blueviolet;
+}
+
+.header {
+    display: flex;
+    width: 95.5%;
+    margin: auto;
+    background-color: rgb(133, 65, 65);
+    color: beige;
+    vertical-align: middle;
+    padding: 20px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div1 {
+    width: 70%;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.div1 h1 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.div1 h6 {
+    margin-top: 0px;
+    font-size: large;
+}
+
+img {
+    border-radius: 50%;
+}
+
+table tr td a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* MAIN Section1 Marquee Section  */
+
+.section1 {
+    width: 60%;
+    margin: auto;
+    font-size: large;
+    margin-top: -15px;
+}
+
+.section1 p {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*  BOX SECTION MAIN section2 */
+#h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blueviolet;
+    width: 300px;
+    margin: auto;
+    padding: 8px;
+}
+
+#h1 a {
+    color: aliceblue;
+}
+
+.section2 {
+    width: 60%;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div2 #div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6,
+#div7,
+#div8 {
+    text-align: center;
+    width: 210px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#div1,
+#div2,
+#div3,
+#div4 {
+    font-size: medium;
+}
+
+#div5,
+#div6,
+#div7,
+#div8 {
+    font-size: small;
+}
+
+.div2 h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.div2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#div1 {
+    background-color: rgb(178, 123, 229);
+}
+
+#div2 {
+    background-color: rgb(192, 166, 216);
+}
+
+#div3 {
+    background-color: rgb(228, 204, 41);
+}
+
+#div4 {
+    background-color: rgb(53, 110, 59);
+}
+
+#div5 {
+    background-color: rgb(246, 143, 143);
+}
+
+#div6 {
+    background-color: rgb(215, 164, 24);
+}
+
+#div7 {
+    background-color: rgb(182, 124, 236);
+}
+
+#div8 {
+    background-color: rgb(21, 94, 96);
+}
+
+
+/* BOTTOM SECTION Footer */
+.footer {
+    width: 70%;
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    line-height: 25px;
+    justify-content: space-between;
+}
+
+.ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.footh2 {
+    padding-left: 40px;
+}
+
+footer ul {
+    list-style: none;
+    text-decoration: none;
+    column-gap: 40px;
+}
+
+footer #fdiv3 h6 {
+    margin-top: 35px;
+    font-style: italic;
+}
+
+
+/* MAIN Section3 */
+/* Section3 upper part */
+
+.section3 {
+    width: 60%;
+    margin: auto;
+}
+
+.div3 {
+    border: 1px solid black;
+    width: 280px;
+}
+
+.section3a {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.section3a div h1 {
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* MAIN Section3 */
+/* Section3 lower part */
+
+.section3b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: large;
+    flex-wrap: wrap;
+}
+
+.section3b div div {
+    border: 1px solid black;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.section3b h1 {
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.section3bb h1 {
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.section3bb {
+    border: 1px solid black;
+    width: 280px;
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.section3ba {
+    width: 590px;
+}
+
+#diva,
+#divi {
+    margin-left: 20px;
+}
+
+#syh2 {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#syh2 a {
+    text-decoration: none;
+}
